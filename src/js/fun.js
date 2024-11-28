@@ -11,4 +11,8 @@ console.log(cortaNome)
 const transfomToArray =  fullName.split(' ') //.split('caracter') quebra a linha toda vez que o caracter digitado aparecer
 console.log(transfomToArray)
 
+const lastName = transfomToArray[transfomToArray.length -1] //.length -1 trás o ultimo array
+console.log(lastName)
+
+
 
