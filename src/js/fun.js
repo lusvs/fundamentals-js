@@ -26,4 +26,21 @@ function FullName(name){
 }
 console.log(FullName('Lucas Soares Valerio dos Santos'))
 
+// função do imc
+function GetIMC(peso, altura){
+    var cal = peso / (altura * altura)
+    
+    if (cal < 22){
+        console.log('Baixo peso')
+    } else if (cal < 27){
+        console.log('Normal')
+    } else if (cal < 29.99){
+        console.log('Sobrepeso')
+    } else {
+        console.log('Obesidade')
+    }
+    return cal
+}
+
+console.log(GetIMC(84, 1.81).toFixed(1))
 
