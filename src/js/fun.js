@@ -14,7 +14,16 @@ console.log(transfomToArray)
 const lastName = transfomToArray[transfomToArray.length -1] //.length -1 trás o ultimo array
 console.log(lastName)
 
-// função que pega o prieiro nome e de um 'Olá'
+// função que pega o primeiro nome e de um 'Olá'
 console.log(`Olá, ${transfomToArray[0]}`)
+
+
+// função que ve se o nome valido
+function FullName(name){
+    const cortaNome = name.split(' ')[0]
+
+    return `Olá, ${cortaNome}, seja bem vindo`
+}
+console.log(FullName('Lucas Soares Valerio dos Santos'))
 
 
