@@ -14,5 +14,7 @@ console.log(transfomToArray)
 const lastName = transfomToArray[transfomToArray.length -1] //.length -1 trás o ultimo array
 console.log(lastName)
 
+// função que pega o prieiro nome e de um 'Olá'
+console.log(`Olá, ${transfomToArray[0]}`)
 
 
